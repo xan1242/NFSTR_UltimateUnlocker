@@ -21,8 +21,8 @@ void Init()
 	injector::MakeNOP(0x83434F, 2);
 
 	injector::WriteMemory<uint8_t>(0x25A35EC, 0, true);
-	injector::WriteMemory<uint8_t>(0x25A362E, 0, true);
-	injector::WriteMemory<uint8_t>(0x25A363E, 0, true);
+	injector::WriteMemory<uint8_t>(0x25A362D, 0, true);
+	injector::WriteMemory<uint8_t>(0x25A363D, 0, true);
 
 	uintptr_t loc_93E00D = 0x93E00D;
 	struct CarUnlockHook1
